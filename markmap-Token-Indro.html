@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-family: ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji',
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+.markmap-dark {
+  background: #27272a;
+  color: white;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/style.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.18.12/dist/browser/index.js"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.18.12/dist/index.js"></script><script>(()=>{setTimeout(()=>{const{markmap:S,mm:Q}=window,$=new S.Toolbar;$.attach(Q);const I=$.render();I.setAttribute("style","position:absolute;bottom:20px;right:20px"),document.body.append(I)})})()</script><script>((l,U,M,R)=>{const N=l();window.mm=N.Markmap.create("svg#mindmap",(U||N.deriveOptions)(R),M),window.matchMedia("(prefers-color-scheme: dark)").matches&&document.documentElement.classList.add("markmap-dark")})(()=>window.markmap,null,{"content":"","children":[{"content":"Token &#x4e0e; Context Window &#x601d;&#x7ef4;&#x5bfc;&#x56fe;","children":[{"content":"&#x4e00;&#x3001;Context Window &#x6982;&#x5ff5;","children":[{"content":"Context Window","children":[{"content":"&#x6a21;&#x578b;&#x4e00;&#x6b21;&#x80fd;&#x591f;&#x5904;&#x7406;&#x7684;&#x6700;&#x5927;&#x4fe1;&#x606f;&#x91cf;","children":[],"payload":{"tag":"li","lines":"4,5"}}],"payload":{"tag":"li","lines":"3,5"}},{"content":"&#x793a;&#x4f8b;","children":[{"content":"GPT5.2&#xff1a;40&#x4e07; Context Window","children":[],"payload":{"tag":"li","lines":"6,7"}},{"content":"&#x5373;&#x4e00;&#x6b21;&#x6700;&#x591a;&#x5904;&#x7406; 40 &#x4e07; Token","children":[],"payload":{"tag":"li","lines":"7,8"}}],"payload":{"tag":"li","lines":"5,8"}},{"content":"&#x6ce8;&#x610f;","children":[{"content":"Token &#x2260; &#x5b57;","children":[],"payload":{"tag":"li","lines":"9,10"}},{"content":"Token &#x2260; &#x8bcd;","children":[],"payload":{"tag":"li","lines":"10,11"}}],"payload":{"tag":"li","lines":"8,11"}},{"content":"&#x6838;&#x5fc3;&#x95ee;&#x9898;","children":[{"content":"&#x4ec0;&#x4e48;&#x662f; Token","children":[],"payload":{"tag":"li","lines":"12,13"}},{"content":"Token &#x5982;&#x4f55;&#x751f;&#x6210;","children":[],"payload":{"tag":"li","lines":"13,14"}},{"content":"Token &#x4e0e;&#x5b57;&#x8bcd;&#x5173;&#x7cfb;","children":[],"payload":{"tag":"li","lines":"14,16"}}],"payload":{"tag":"li","lines":"11,16"}}],"payload":{"tag":"h2","lines":"2,3"}}],"payload":{"tag":"h1","lines":"0,1"}},{"content":"&#x4e8c;&#x3001;&#x5927;&#x6a21;&#x578b;&#x8fd0;&#x884c;&#x539f;&#x7406;","children":[{"content":"&#x6a21;&#x578b;&#x672c;&#x8d28;","children":[{"content":"&#x5927;&#x6a21;&#x578b;&#x672c;&#x8d28;","children":[{"content":"&#x5de8;&#x5927;&#x7684;&#x6570;&#x5b66;&#x51fd;&#x6570;","children":[],"payload":{"tag":"li","lines":"22,23"}},{"content":"&#x5185;&#x90e8;&#x662f;&#x77e9;&#x9635;&#x8fd0;&#x7b97;","children":[],"payload":{"tag":"li","lines":"23,24"}}],"payload":{"tag":"li","lines":"21,24"}},{"content":"&#x8f93;&#x5165;&#x8f93;&#x51fa;","children":[{"content":"&#x8f93;&#x5165;&#xff1a;&#x6570;&#x5b57;","children":[],"payload":{"tag":"li","lines":"25,26"}},{"content":"&#x8f93;&#x51fa;&#xff1a;&#x6570;&#x5b57;","children":[],"payload":{"tag":"li","lines":"26,27"}}],"payload":{"tag":"li","lines":"24,27"}},{"content":"&#x6a21;&#x578b;&#x672c;&#x8eab;","children":[{"content":"&#x4e0d;&#x7406;&#x89e3;&#x4eba;&#x7c7b;&#x6587;&#x5b57;","children":[],"payload":{"tag":"li","lines":"28,30"}}],"payload":{"tag":"li","lines":"27,30"}}],"payload":{"tag":"h2","lines":"20,21"}},{"content":"&#x7ffb;&#x8bd1;&#x89d2;&#x8272;&#xff1a;Tokenizer","children":[{"content":"Tokenizer&#x529f;&#x80fd;","children":[{"content":"&#x7f16;&#x7801;&#xff08;Encoding&#xff09;","children":[{"content":"&#x6587;&#x5b57; &#x2192; &#x6570;&#x5b57;","children":[],"payload":{"tag":"li","lines":"40,41"}}],"payload":{"tag":"li","lines":"39,41"}},{"content":"&#x89e3;&#x7801;&#xff08;Decoding&#xff09;","children":[{"content":"&#x6570;&#x5b57; &#x2192; &#x6587;&#x5b57;","children":[],"payload":{"tag":"li","lines":"42,44"}}],"payload":{"tag":"li","lines":"41,44"}}],"payload":{"tag":"h3","lines":"38,39"}}],"payload":{"tag":"h2","lines":"32,33"}}],"payload":{"tag":"h1","lines":"18,19"}},{"content":"&#x4e09;&#x3001;&#x7f16;&#x7801;&#x6d41;&#x7a0b;&#xff08;&#x6587;&#x5b57; &#x2192; Token ID&#xff09;","children":[{"content":"&#x7528;&#x6237;&#x8f93;&#x5165;","children":[],"payload":{"tag":"h2","lines":"48,49"}},{"content":"&#x7f16;&#x7801;&#x6b65;&#x9aa4;","children":[{"content":"1 &#x5207;&#x5206;&#xff08;Tokenization&#xff09;","children":[{"content":"&#x628a;&#x53e5;&#x5b50;&#x62c6;&#x5206;&#x4e3a;&#x6700;&#x5c0f;&#x5355;&#x4f4d;","children":[],"payload":{"tag":"li","lines":"58,59"}},{"content":"&#x6bcf;&#x4e2a;&#x788e;&#x7247;&#x79f0;&#x4e3a;&#xff1a;","children":[],"payload":{"tag":"li","lines":"59,61"}}],"payload":{"tag":"h3","lines":"57,58"}}],"payload":{"tag":"h2","lines":"55,56"}}],"payload":{"tag":"h1","lines":"46,47"}}]},null)</script>
+</body>
+</html>
